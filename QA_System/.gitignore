@@ -1,0 +1,14 @@
+# Environment
+.env
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+
+# Generated vector/index storage
+storage/
