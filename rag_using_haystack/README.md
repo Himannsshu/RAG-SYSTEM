@@ -1,4 +1,4 @@
-AG with Haystack and Gemini
+#RAG with Haystack and Gemini
 
 A simple Retrieval-Augmented Generation (RAG) pipeline built with Haystack and Google Gemini. It answers questions about the Seven Wonders of the Ancient World using a Hugging Face dataset.
 
