@@ -1,0 +1,6 @@
+haystack-ai
+sentence-transformers
+datasets
+python-dotenv
+google-genai-haystack
+sentence-transformers-haystack
