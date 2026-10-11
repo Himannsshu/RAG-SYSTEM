@@ -13,7 +13,7 @@ load_dotenv()
 
 doc_embedder = SentenceTransformersDocumentEmbedder(model="sentence-transformers/all-MiniLM-L6-v2")
 doc_embedder.warm_up()
-dataset=load_dataset("bilgeyucel/seven-wonders", split="train")
+dataset=load_dataset("bilgeyucel/seven-wonders", split="train") #This is the dataset on huggingface
 docs = [Document(content=doc["content"], meta=doc["meta"]) for doc in dataset]
 docs_with_embeddings = doc_embedder.run(docs)
 document_store = InMemoryDocumentStore()
