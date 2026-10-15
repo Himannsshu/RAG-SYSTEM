@@ -24,7 +24,7 @@ A voice-based AI assistant built with Streamlit. Click a button, speak your ques
 - Python 3.9 or higher
 - A Google API key from [Google AI Studio](https://aistudio.google.com/)
 
-## 🚀 How to Run
+##  How to Run
 
 ### Step 1: Clone the repository
 
