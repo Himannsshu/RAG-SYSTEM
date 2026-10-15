@@ -33,8 +33,5 @@ def text_to_speech(text):
     tts.save("speech.mp3")
 
 def llm_model_object(user_text):
-    response = client.models.generate_content(
-        model="gemini-3.5-flash",
-        contents=user_text,
-    )
+    response = client.models.generate_content(model="gemini-3.5-flash",contents=user_text)
     return response.text
