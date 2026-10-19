@@ -1,4 +1,4 @@
-# Multimodal Video RAG (Gemini)
+# Multimodal Video RAG 
 
 Ask questions about a YouTube video and get answers based on both what is said (transcript) and what is shown (video frames), powered by Google Gemini.
 
@@ -15,7 +15,7 @@ Ask questions about a YouTube video and get answers based on both what is said (
 - Python
 - LlamaIndex
 - LanceDB
-- Google Gemini (`gemini-3.5-flash`)
+- Google Gemini 
 - HuggingFace embeddings (`BAAI/bge-small-en-v1.5`) for text
 - CLIP for images
 - Whisper (speech-to-text)
@@ -25,7 +25,7 @@ Ask questions about a YouTube video and get answers based on both what is said (
 
 - Python 3.9+
 - FFmpeg installed
-- Google Gemini API key (get one from Google AI Studio)
+- Google Gemini API key
 
 ## Installation
 
