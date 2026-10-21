@@ -1,0 +1,14 @@
+llama-index-core
+llama-index-readers-file
+llama-index-embeddings-huggingface
+llama-index-embeddings-clip
+llama-index-llms-google-genai
+llama-index-vector-stores-lancedb
+lancedb
+sentence-transformers
+SpeechRecognition[whisper-local]
+python-dotenv
+moviepy
+pytubefix
+Pillow
+git+https://github.com/openai/CLIP.git
