@@ -36,13 +36,6 @@ Most simple PDF chatbots only read the extracted text, so anything inside a char
 
 - **Changing the PDF?** Delete the `chroma_db` folder first, otherwise the old embeddings will be reused.
 - **API limits.** The free Gemini tier has daily request limits for each model. Every question uses exactly one chat request, so you can ask a limited number of questions per day. If you see a `429 RESOURCE_EXHAUSTED` error, change `CHAT_MODEL` to another model (for example `gemini-2.5-flash-lite`) or wait for the quota to reset. You can check your limits in [Google AI Studio](https://ai.dev/rate-limit).
-- **Keep your key private.** Add this to a `.gitignore` file so it is not pushed to GitHub:
-
-  ```
-  .env
-  venv/
-  chroma_db/
-  ```
 
 ## Limitations
 
